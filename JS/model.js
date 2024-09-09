@@ -2,7 +2,7 @@
 
 let myPokemons = [];
 
-let randomPokemon;
+let randomPokemon = {};
 
 let Ash = {
   name: "Ash",

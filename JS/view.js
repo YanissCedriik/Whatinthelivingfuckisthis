@@ -10,7 +10,7 @@ function updateView() {
   
   <div class="container">
         <div id="outputPokemon" class="pokemon">
-            <img src=${randomPokemon.image}>
+            <img src= ${randomPokemon.image}>
             <div class="name">${randomPokemon.name}</div>
             <div class="stats">LEVEL: ${randomPokemon.level}</div>
             <div class="stats">HEALTH: ${randomPokemon.health}</div>
@@ -24,11 +24,15 @@ function updateView() {
             
             
             <div>
-                <button>Catch Pokemon</button>
-                <button>My Pokemon</button>
-                <button>Find another</button>
+                <button onclick="catchPokemon()">Catch Pokemon</button>
+                <button onclick="listAllPokemon()">My Pokemons</button>
+                <button onclick="generateNumber()">Find another</button>
             </div>
-          </div>
+
+            <div id="caughtPokemons">My Pokemons: </div>
+          
+          
+            </div>
     </div>
 
 
