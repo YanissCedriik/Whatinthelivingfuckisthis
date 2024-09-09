@@ -26,7 +26,7 @@ function updateView() {
             <div>
                 <button onclick="catchPokemon()">Catch Pokemon</button>
                 <button onclick="listAllPokemon()">My Pokemons</button>
-                <button onclick="generateNumber()">Find another</button>
+                <button onclick="getRandomPokemon()">Find another</button>
             </div>
 
             <div id="caughtPokemons">My Pokemons: </div>
