@@ -8,6 +8,7 @@ console.log(generateNumber())
 function getRandomPokemon(){
   randomPokemon = pokemons[generateNumber()]
     console.log(randomPokemon)
+  updateView()
 }
 
 function catchPokemon(){
